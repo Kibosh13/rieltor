@@ -1,0 +1,57 @@
+# Secrets and machine-specific configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Dependencies and caches
+node_modules/
+.pnp.*
+.npm/
+.yarn/
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated build output and test reports
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+playwright-report/
+test-results/
+
+# Databases, logs, temporary files and archives
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.log
+logs/
+tmp/
+temp/
+work/
+*.tmp
+*.bak
+*.swp
+*.zip
+*.tar
+*.gz
+
+# Original customer correspondence and local service metadata
+*.eml
+.openai/
+.sites-runtime/
+.codex/
+.DS_Store
+.idea/
+.vscode/
